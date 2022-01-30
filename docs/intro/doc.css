@@ -424,6 +424,15 @@ button{
   margin: 0 auto;
 }
 
+.desc-code{
+  display: flex;
+  place-content: center;
+  min-width: 29rem;
+  background-color: var(--dark-black);
+  padding: 1rem;
+  color: var( --mint-white);
+}
+
 
 /* button */
 
