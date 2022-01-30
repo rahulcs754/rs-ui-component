@@ -1,0 +1,28 @@
+/* add cursor on button */
+button{
+    cursor: pointer;
+} 
+
+
+/*
+scroll css
+*/
+
+::-webkit-scrollbar-track
+{
+	background-color: var(--light-black);
+}
+
+::-webkit-scrollbar
+{
+	width: 5px;
+  background-color: var(--light-more-black);
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: var(--light-black);
+	border: 1px solid var(--light-black);
+}
+
+

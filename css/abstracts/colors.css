@@ -1,0 +1,20 @@
+:root{
+    /* main color set*/
+    --dark-blue:#1D4ED8;
+    --light-blue:#2563EB;	
+    --light-more-blue:#3B82F6;	
+     
+  
+    /* extra color set */
+    --alert-color:hsl(0,85%,55%);  
+    --primary-color:hsl(217,85%,50%);
+    --success-color:hsl(144,100%,36%);
+    --warning-color:hsl(40,100%,50%);
+    --info-color:hsl(195,83%,58%);
+    --mint-white:hsl(150,100%,98%);
+  
+    --dark-black:#1F2937;
+    --light-black:#4B5563;	
+    --light-more-black:#6B7280;	
+       
+  }

@@ -1,0 +1,67 @@
+/* font family link */
+@import url('https://fonts.googleapis.com/css2?family=Andika&display=swap');
+
+
+/* reset  css */
+@import url("./base/reset.css");
+
+/* color  css */
+@import url("./abstracts/colors.css");
+
+/* base css  css */
+@import url("./base/general.css");
+
+/* utilities css */
+@import url("./utils/utilities.css");
+
+/* Add all component */
+@import url("./components/all.css");
+
+
+
+
+
+/* 
+|| media query
+*/
+
+/* Mobile  */
+@media only screen and (min-width: 480px) {
+    html {
+      font-size: 40%;
+    }
+  }
+  
+  /* Tablet  */
+  @media only screen and (min-width: 640px) {
+    html {
+      font-size:50%;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+      html {
+        font-size: 55%;
+      }
+    }
+  
+    
+    /* Laptop  */
+    @media only screen and (min-width: 1024px) {
+      html {
+        font-size: 100%;
+      }
+    }
+    
+    /* desktop  */
+    @media only screen and (min-width: 1280px) {
+      html {
+        font-size: 100%;
+      }
+    }
+  
+    @media only screen and (min-width: 1536px) {
+      html {
+        font-size: 120%;
+      }
+    }

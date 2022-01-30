@@ -1,0 +1,579 @@
+/*  Author : Rahul Shukla  */
+
+/* ---------------------------------------------
+Table of contents
+------------------------------------------------
+-> reset
+-> global styles
+-> Avoid text overflows
+-> header
+-> media query
+--------------------------------------------- */
+
+
+/*
+Global Style 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Andika&display=swap');
+
+/* 
+---------------------------------------------
+ reset css Important to make 
+--------------------------------------------- 
+*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+  font-family: 'Andika', sans-serif;
+  font-weight: 400;
+  background-color: var(--mint-white);
+}
+  
+img,
+video,
+iframe {
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+  
+
+/* 
+---------------------------------------------
+02. global styles
+--------------------------------------------- 
+*/
+:root{
+  /* main set */
+  --dark-blue:#1D4ED8;
+  --light-blue:#2563EB;	
+  --light-more-blue:#3B82F6;	
+   
+
+  /* extra set */
+  --alert-color:hsl(0,85%,55%);  
+  --primary:hsl(217,85%,50%);
+  --success:hsl(144,100%,36%);
+  --warning:hsl(40,100%,50%);
+  --info:hsl(195,83%,58%);
+  --mint-white:hsl(150,100%,98%);
+
+  --dark-black:#1F2937;
+  --light-black:#4B5563;	
+  --light-more-black:#6B7280;	
+   
+
+
+}
+
+
+/*
+ 8. Avoid text overflows
+*/
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+
+
+/* varient size */
+
+.f-xs{
+    font-size: 0.5rem; /*  8px */
+}
+
+.f-s{
+  font-size: 1rem;   /*  16px */
+}
+
+.f-m{
+  font-size: 1.5rem;  /* 24px */
+}
+
+.f-l {
+  font-size:2rem;    /* 32px */
+}
+
+.f-xl {
+  font-size:2.5rem;   /* 40px */
+}
+
+.f-xxl {
+  font-size:4rem;   /* 64px */
+ }
+
+/* varient padding */
+
+.p-xs{
+  padding: 0.5rem; /*  8px */
+}
+
+.p-s{
+  padding: 1rem;   /*  16px */
+}
+
+.p-m{
+  padding: 1.5rem;  /* 24px */
+}
+
+.p-l {
+  padding:2rem;    /* 32px */
+}
+
+.p-xl {
+  padding:2.5rem;   /* 40px */
+}
+
+.p-xxl {
+  padding:4rem;   /* 64px */
+}
+
+/* varient of margin top  */
+
+.mt-s{
+  margin-top: 0.5rem;
+}
+
+.mt-m{
+margin-top: 1rem;
+}
+
+.mt-l{
+  margin-top: 1.5rem;
+}
+
+/* varient of margin bottom  */
+
+.mb-s{
+  margin-bottom: 0.5rem;
+}
+
+.mb-m{
+  margin-bottom: 1rem;
+}
+
+.mb-l{
+  margin-bottom: 1.5rem;
+} 
+
+
+/* varient of margin right  */
+
+.mr-s{
+  margin-right: 0.5rem;
+}
+
+.mr-m{
+margin-right: 1rem;
+}
+
+.mr-l{
+  margin-right: 1.5rem;
+}
+
+/* varient of margin left  */
+.ml-s{
+  margin-left: 0.5rem;
+}
+
+.ml-m{
+margin-left: 1rem;
+}
+
+.ml-l{
+  margin-left: 1.5rem;
+}
+
+
+
+/* padding top  */
+
+.pt-s{
+  padding-top: 0.5rem;
+}
+
+.pt-m{
+  padding-top: 1rem;
+}
+
+.pt-l{
+  padding-top: 1.5rem;
+}
+
+
+
+/* padding bottom  */
+
+.pb-s{
+  padding-bottom: 0.5rem;
+}
+
+.pb-m{
+  padding-bottom: 1rem;
+}
+
+.pb-l{
+  padding-bottom: 1.5rem;
+}
+
+/* padding left  */
+
+.pl-s{
+  padding-left: 0.5rem;
+}
+
+.pl-m{
+  padding-left: 1rem;
+}
+
+.pl-l{
+  padding-left: 1.5rem;
+}
+
+
+/* padding  right */
+
+.pr-s{
+  padding-right: 0.5rem;
+}
+
+.pr-m{
+  padding-right: 1rem;
+}
+
+.pr-l{
+  padding-right: 1.5rem;
+}
+
+/* varient margin */
+
+.m-xs{
+  margin: 0.5rem; /*  8px */
+} 
+
+.m-s{
+  margin: 1rem;   /*  16px */
+}
+
+.m-m{
+  margin: 1.5rem;  /* 24px */
+}
+
+.m-l {
+  margin:2rem;    /* 32px */
+}
+
+.m-xl {
+  margin:2.5rem;   /* 40px */
+}
+
+.m-xxl {
+  margin:4rem;   /* 64px */
+}
+
+
+/* varient size of border  */
+
+.br-s{
+  border-radius: 5px;    /* 5px */
+}
+
+.br-m{
+  border-radius: 10px;    /* 10px */
+}
+
+.br-l{
+  border-radius: 15px;    /* 15px */
+}  
+
+.br-f{
+  border-radius:999px;    /* 999px */
+}
+
+.font-xs{
+  font-weight: 300;
+}
+
+.font-s{
+  font-weight: 600;
+}
+
+.font-m{
+  font-weight: 400;
+}
+
+.font-l{
+  font-weight: 600;
+}
+
+.font-xl{
+  font-weight: 700;
+}
+
+.font-xxl{
+  font-weight: 900;  
+}
+
+
+button{
+    cursor: pointer;
+} 
+
+.bt{
+  border-bottom: 1px solid var(--light-black);
+}
+
+/* body data */
+
+.container {
+  width: 90vw;
+  max-width: 85vw;
+  margin:0 auto;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;  
+  justify-content: space-between;
+  align-items:center;
+}
+
+.header-100 {
+  min-width: 100%;
+}
+
+.header-80{
+  min-width: 80%;
+}
+
+.header-70{
+  min-width: 70%;
+}
+ 
+
+
+.header-right{
+  font-size: 1rem;
+}
+
+.main {  
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 80vh;
+}
+
+
+.main .main-title{
+  margin:0 auto;  
+  width:70%;
+  text-align: center;
+}
+
+
+.main .desc{
+  margin: 0 auto;
+  width: 85%;
+}
+
+.button-part{
+  display: flex;
+  justify-content: space-evenly;
+  width: 20.75rem;
+  margin: 0 auto;
+}
+
+
+/* button */
+
+.btn {
+  padding: 0.7rem 0.8rem;
+  border-radius: 5px;
+  box-shadow: 2px 2px var(--light-black); 
+}
+ 
+.btn-primary{
+  background: var(--primary);
+  color: var(--mint-white);
+}
+
+.btn:hover{
+  background: var(--dark-blue);
+  color: var(--mint-white);
+  box-shadow: 4px 4px var(--light-black); 
+}
+ 
+.footer{
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  position:relative;
+  min-width: 100%;
+  color: var(--light-more-black);
+}
+
+.connect-link{
+  color: var(--dark-blue);
+}
+
+
+/*document-box  */
+.document-box{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top:2rem;
+ /* border: 1px solid rebeccapurple;*/
+  min-height: 50vh;
+}
+
+.side-bar{
+  flex: 0 0 15rem; /* flex grow flex shrin flex-basis */
+  /*border: 1px solid rosybrown;*/
+}
+
+
+.right-container{
+ /* border: 1px solid salmon;*/
+  margin: 0px auto;
+  max-width: 50rem;
+  flex: 1 1 0%; /* flex-grow flex-shrink flex-basic */
+}
+
+/* sidebar list */
+.list-topic{
+  color: var(--light-black);
+}
+ 
+
+
+
+.hr{
+    margin: 2rem 0rem;
+    width: 100%;
+    height: 1px;
+    background-color:var(--light-black);
+}
+
+/* hightlight code */
+
+.code {
+    margin: 0 5%;
+    padding-left: 2rem;
+    font-size: 1em;
+    cursor: pointer;  
+}
+
+/*
+scroll css
+*/
+
+::-webkit-scrollbar-track
+{
+	background-color: var(--light-black);
+}
+
+::-webkit-scrollbar
+{
+	width: 5px;
+  background-color: var(--light-more-black);
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: var(--light-black);
+	border: 1px solid var(--light-black);
+}
+
+
+/* body data */
+
+
+
+/* 
+---------------------------------------------
+13. media query
+--------------------------------------------- 
+*/
+
+/* Mobile  */
+@media only screen and (min-width: 480px) {
+  html {
+    font-size: 40%;
+  }
+}
+
+/* Tablet  */
+@media only screen and (min-width: 640px) {
+  html {
+    font-size:50%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+    html {
+      font-size: 55%;
+    }
+  }
+
+  
+  /* Laptop  */
+  @media only screen and (min-width: 1024px) {
+    html {
+      font-size: 100%;
+    }
+  }
+  
+  /* desktop  */
+  @media only screen and (min-width: 1280px) {
+    html {
+      font-size: 100%;
+    }
+  }
+
+  @media only screen and (min-width: 1536px) {
+    html {
+      font-size: 120%;
+    }
+  }
