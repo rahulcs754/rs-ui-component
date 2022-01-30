@@ -194,6 +194,11 @@ margin-left: 1rem;
   margin:4rem;   /* 64px */
 }
 
+/* add margin auto left and right */
+
+.margin-auto{
+  margin:0 auto;
+}
 
 /* varient size of border  */
 
