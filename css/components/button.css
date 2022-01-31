@@ -105,7 +105,8 @@
     min-height: 2rem;
     padding: 0.8rem;
     border-radius: 50%;
-    text-align: center;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
