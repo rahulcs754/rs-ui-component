@@ -10,6 +10,10 @@
     box-shadow: 2px 2px var(--light-black);
 }
 
+.btn:hover{
+    box-shadow: 1px 1px var(--light-black);
+}
+
 .btn-primary{
     background-color: var(--primary-color);
     color: var(--mint-white);
@@ -17,7 +21,7 @@
 
 .btn-primary:hover{
     background-color: var(--light-more-blue);
-    box-shadow: 1px 1px var(--light-black);
+    
 }
 
 .btn-success{
@@ -27,7 +31,6 @@
 
 .btn-success:hover{
     background-color: hsl(144,100%,50%);
-    box-shadow: 1px 1px var(--light-black);
 }
 
 .btn-warning{
@@ -37,7 +40,6 @@
 
 .btn-warning:hover{
     background-color: hsl(40,100%,65%);
-    box-shadow: 1px 1px var(--light-black);
 }
 
 .btn-info{    
@@ -47,20 +49,17 @@
 
 .btn-info:hover{
     background-color: hsl(195,83%,68%);
-    box-shadow: 1px 1px var(--light-black);
 }
 
 
 .btn-error{    
     background-color: var(--alert-color);
     color: var(--dark-black);
-    box-shadow: 1px 1px var(--light-black);
 }
 
 .btn-error:hover{
     background-color: hsl(0,85%,75%);
     color:var(--mint-white);
-    box-shadow: 1px 1px var(--light-black);
 }
 
 .btn-border{
@@ -72,7 +71,6 @@
 .btn-border:hover{
     border:1px solid var(--dark-black);
     color:var(--dark-black);
-    box-shadow: 1px 1px var(--light-black);
 }
 
 /* Link button */
@@ -111,6 +109,3 @@
     flex-direction: row;
 }
 
-.btn-float:hover{
-    box-shadow: 1px 1px var(--light-black);
-}
