@@ -1,7 +1,27 @@
 /* Below add all component*/
 
-/* color  css */
+/* button  css */
 @import url("./button.css");
 
-/* color  css */
+/* avatar  css */
 @import url("./avatar.css");
+
+
+/* Alert  css */
+/*@import url("./alert.css");*/
+
+
+
+/* Badge  css */
+/*@import url("./badge.css");*/
+
+
+/* card  css */
+/*@import url("./card.css");*/
+
+
+/* image  css */
+/*@import url("./imge.css");*/
+
+/*input css*/
+/*@import url("./input.css");*/
