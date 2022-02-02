@@ -2,17 +2,12 @@
 || avatar css
 */
 
-/* Main Avatar */
-.avatar{
-    margin: 0.3rem;
-    border-radius: 100%;
-}  
-
-.avatar-img{ 
-    border-radius: 100%;
+.avatar{ 
+    margin: 0.3rem; 
     object-fit: fill;
 }
 
+/* varient size */
 .avatar-xs{
     width: 2rem;  
     height: 2rem;
@@ -33,19 +28,18 @@
     height: 6rem;
 }
 
-/* border varient */
-.avatar-square{
-    border-radius: 100%;
-}
+/* varient type */
 
-.avatar-circle{
-    border-radius:100%
-}
-
+.avatar-square,
 .avatar-img-square{
     border-radius: 10%;
 }
 
+.avatar-circle,
 .avatar-img-circle{
-    border-radius: 100%;
+    border-radius: 50%;
 }
+         
+
+  
+ 
