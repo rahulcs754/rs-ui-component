@@ -4,6 +4,7 @@
 
 /* Main Avatar */
 .avatar{
+    margin: 0.3rem;
     border-radius: 100%;
 }  
 
