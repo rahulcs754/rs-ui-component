@@ -4,16 +4,12 @@
 
 /* Main Avatar */
 .avatar{
-    display: flex;
-	align-items: center;
-	justify-content: center;
-    flex-wrap: wrap;
-    margin: 0.3rem;
     border-radius: 100%;
 }  
 
 .avatar-img{ 
     border-radius: 100%;
+    object-fit: fill;
 }
 
 .avatar-xs{
