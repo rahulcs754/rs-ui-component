@@ -29,7 +29,6 @@
 }
 
 /* varient type */
-
 .avatar-square,
 .avatar-img-square{
     border-radius: 10%;
@@ -38,4 +37,4 @@
 .avatar-circle,
 .avatar-img-circle{
     border-radius: 50%;
-} 
+}  
