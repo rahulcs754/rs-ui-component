@@ -1,4 +1,75 @@
 /*
 || Input
 */
+.input-box{
+    width: 100%;
+}
 
+.field-item{
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--light-black);
+    border: 1px solid var(--light-black);
+    border-radius: 0.25rem;
+    padding: 0.3rem 0.5rem;  
+}
+
+.field-item:focus{
+    border-color:var(--light-blue);
+    box-shadow:0 0 4px 0 var(--light-blue);
+}
+
+.label{
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.25rem; 
+    font-weight:700;
+}
+
+.error-text{
+   font-size: 1.2rem;
+}
+
+/* Error all box */
+.error-box{
+    color: var(--alert-color);
+}
+
+.error-box input{
+    border: 1px solid var(--alert-color);
+}
+
+/* Success box */
+.success-box{
+    color: var(--success-color);
+}
+
+.success-box input{
+    border: 1px solid var(--success-color);
+}
+
+/* Error Icon css */
+.error-icon{
+    position: relative;
+ }
+
+ .input-error-icon{
+    position: absolute;
+    bottom: 0.6em;
+    right: 0.71em;
+    font-size: 1rem;
+    color: var(--alert-color);
+}
+
+/* some css for all field */
+
+.field-set{
+    border: 1px solid var(--light-more-black);
+    padding: 0.5rem;
+    color: var(--light-black);
+}
+
+.field-set option{
+    background-color: var(--mint-white);
+}
