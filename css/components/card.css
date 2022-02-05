@@ -5,12 +5,15 @@
 .card{
     display: flex;
     flex-direction: column;
-    position: relative;
     height: auto;
     min-width: 18rem;
     max-width: 18rem;
     background-color: var(--mint-white);   
     outline: 1px solid var(--light-more-black);
+}
+
+.card-overlay{
+    position: relative;
 }
 
 .card-header{
@@ -96,7 +99,7 @@
 
 .card-title-overlay {
     position: absolute;
-    top:7rem;
+    top:8rem;
     padding: 1rem;
     color: var(--mint-white);
 }  
