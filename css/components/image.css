@@ -1,0 +1,17 @@
+/*
+|| Images css
+*/
+
+.img-resp{
+    max-width: 100%;
+    height: auto;
+    object-fit: fill;
+}
+
+.img-square{
+    border-radius:10px;
+}
+
+.img-circle{
+    border-radius:50%;
+}
