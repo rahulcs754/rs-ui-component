@@ -1,0 +1,179 @@
+/*
+||Toast , Notify , Snackbar css
+*/
+
+/*
+|| Toast
+*/
+.toast{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 15.625rem;
+    background-color: var(--dark-black);
+    color: var(--mint-white);
+    border-radius: 5px;
+    padding: 0.8rem;
+    position: fixed;
+    font-size: 1rem;
+    z-index: 5;  
+}
+
+.toast-top{
+    top: 1rem;  
+    right: 3rem;
+}
+
+.toast-bottom{ 
+    bottom: 1rem;  
+    right: 3rem;
+}
+
+/*
+|| Notify
+*/
+
+.notify{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 15.625rem;
+    background-color: var(--mint-white);
+    border-radius: 5px;
+    color:var(--light-black);
+    padding: 0.8rem;
+    position: fixed;
+    font-size: 1rem;
+    z-index: 5;
+    
+}
+
+
+.notify-primary{
+    border: 1px solid var(--primary-color);
+    box-shadow: 0px 0px 4px var(--primary-black);
+    color: var(--primary-color);
+} 
+
+.notify-success{ 
+    border: 1px solid var(--success-color);
+    box-shadow: 0px 0px 4px var(--success-color);
+    color: var(--success-color);
+} 
+
+.notify-warning{
+    border: 1px solid var(--warning-color);
+    box-shadow: 0px 0px 4px var(--warning-color);
+    color: var(--warning-color);
+}
+
+.notify-alert{
+    border: 1px solid var(--alert-color);
+    box-shadow: 0px 0px 4px var(--alert-color);
+    color: var(-alert-color);
+}
+
+.notify-top-left{
+    top: 1rem;  
+    left: 3rem;
+}
+
+.notify-bottom-left{ 
+    bottom: 1rem;  
+    left: 3rem;
+}
+
+
+.notify-top-right{
+    top: 1rem;  
+    right: 3rem;
+}
+
+.notify-bottom-right{ 
+    bottom: 1rem;  
+    right: 3rem;
+}
+
+
+/*
+|| Snackbar
+*/
+
+.snackbar { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border:1px solid black;
+    padding: 0.8rem 0.9rem;
+    background-color: hsl(0deg 0% 20%);
+    margin: 0.2rem;
+}
+
+.snackbar-1{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0.5rem;
+}
+
+
+.snackbar-body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+}
+
+.snackbar-text{
+    margin-right: 0.6rem;
+    color:white; 
+}
+
+.snackbar-retry{
+    font-weight: 400;
+    color:#bb86fc;
+    margin: 0px 0.7rem  0.1rem 0rem;
+}
+
+.snackbar-close{
+    font-weight: 100;
+    background-color: hsl(0deg 0% 20%);
+    color:white;
+    margin-top:0.2rem;
+}
+
+
+/*
+|| second snackbar
+*/
+ 
+.snackbar-text1{
+    color:hsla(0,0%,100%,.87);
+    padding: 0rem 0.2rem;
+    margin : 0.2rem 0rem;
+}
+
+.snackbar-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    min-width: 100%;
+    padding: 0rem 0.2rem;
+    margin:1rem 0rem;
+}
+
+.snackbar-retry1{
+    font-weight: 400;
+    color:#bb86fc; 
+    margin-right: 0.8rem;
+}
+
+.snackbar-close1{
+    font-weight: 100;
+    background-color: hsl(0deg 0% 20%);
+    color:white;
+}
+
+
