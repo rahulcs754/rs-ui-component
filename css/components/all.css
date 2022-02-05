@@ -25,3 +25,7 @@
 
 /*input css*/
 @import url("./input.css");
+
+
+/*Toast Notify Snanckbar*/
+@import url("./toast_notify_snackbar.css");
