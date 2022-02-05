@@ -1,20 +1,26 @@
 /*
 || Card Css
 */
-
 .card{
     display: flex;
     flex-direction: column;
     position: relative;
     height: auto;
+    min-width: 18rem;
     max-width: 18rem;
     background-color: var(--mint-white);   
-    border: 1px solid var(--light-more-black);
+    outline: 1px solid var(--light-more-black);
 }
 
 .card-header{
     padding: 0.7rem;
-}
+} 
+
+.card-image{
+    max-width: 100%;
+    object-fit: cover;
+    min-height: 10rem;
+}  
 
 .card-title{
     font-weight: 700;
@@ -50,17 +56,14 @@
 }
 
 .text-btn {
-color: var(--primary-color);
-font-weight: 500;
+    color: var(--primary-color);
+    font-weight: 500;
 }
 
 .card-icon {
-border-radius: 50%;
-padding: 0.3rem;
-}
-
-.card-icon:hover {
-background-color: lightgray;
+    border-radius: 50%;
+    padding: 0.3rem;
+    color: var(--light-blue);
 }
 
 .card-with-badge::before {
@@ -75,11 +78,11 @@ background-color: lightgray;
     color: var(--mint-white);
     text-align: center;
     font-weight: 600;
-    box-shadow: 4px 4px 10px rgba(109, 129, 226, 0.5);
+    box-shadow: 0px 0px 9px var(--primary-color);
 }
 
 .card-shadow {
-box-shadow: rgb(0 0 0 / 74%) 0px 4px 8px;
+    box-shadow: 0px 0px 4px var(--light-black);
 }
 
 .card-close-icon {
@@ -94,22 +97,22 @@ box-shadow: rgb(0 0 0 / 74%) 0px 4px 8px;
     position: absolute;
     top:7rem;
     padding: 1rem;
-    color: var(--warning-color);
-}
+    color: var(--mint-white);
+}  
 
 .mrp-price {
-font-weight: 400;
-text-decoration: line-through;
-color: var(--light-more-black);
+    font-weight: 400;
+    text-decoration: line-through;
+    color: var(--light-more-black);
 }
 
 .card-discount {
-color: var(--alert-color);
-font-weight: 500;
+    color: var(--alert-color);
+    font-weight: 500;
 }
 
 .card:hover{
-box-shadow: 0 0 4px var(--light-blue);
+    box-shadow: 0 0 4px var(--light-blue);
 }
 
 /*  horizontal card css */
@@ -117,12 +120,22 @@ box-shadow: 0 0 4px var(--light-blue);
     max-width: 18rem;
 }
 
-.card-hor {
+.card-part-horizontal {
     display: flex;
-    width: inherit;
+    flex-direction: row;
 }    
 
-.card-img-hor {
-    max-width: 6rem;
-    min-height: 2rem;
+.card-img-horizontal {
+    flex:0 0 7rem;  
 }
+  
+.card-header-horizontal{
+    flex:1 0 0rem;
+    padding:0rem 1rem; 
+}
+
+.card-image-hr{
+    max-width: 100%;
+    object-fit: cover;
+    min-height: auto;
+} 
