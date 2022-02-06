@@ -1,0 +1,51 @@
+/*
+|| List 
+*/
+.list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none; 
+    background-color: var(--mint-white);
+    padding: .5rem 0;
+    margin: 0.625rem;
+    width: 15rem;
+    max-width: 95%;
+}
+
+.list-border{
+    border: 1px solid var(--light-black);
+}
+
+.list-title{
+    font-size: 1.3rem;
+    padding: 1rem;
+    font-weight: 700;
+    border-bottom: 1px solid #d9d9d9;
+    margin-bottom: .5rem;
+}
+
+.list-item{
+    font-size: 1rem;
+    color: var(--light-black);
+    padding: 0.5rem 1rem;
+    flex-grow: 1;
+}
+
+
+.list-item-stacked{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1rem;
+    color: var(--light-black); 
+    padding:0.4rem 0.5rem; 
+    flex-grow: 1;
+    gap: 0.5rem;
+}  
+
+.nested-list{
+    font-size: 1rem;
+    color: var(--light-black);
+    padding: 0.5rem 0.1rem;
+}
