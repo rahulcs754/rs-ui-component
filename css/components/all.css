@@ -28,6 +28,9 @@
 
 
 /*modal css*/
+@import url("./toast_notify_snackbar.css");
+
+/*modal css*/
 @import url("./modal.css");
 
 
@@ -38,3 +41,9 @@
 
 /*rating css*/
 @import url("./rating.css");
+
+
+/*List css*/
+@import url("./list.css");
+
+
