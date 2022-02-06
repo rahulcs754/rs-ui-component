@@ -264,6 +264,58 @@ margin-left: 1rem;
   text-align: center;
 }
 
+/* Text line-height */
+
+.lh-xs {
+  line-height: 1;
+}
+
+.lh-sm {
+  line-height: 1.25;
+}
+
+.lh-large {
+  line-height: 1.6;
+}
+
+
+
+
+/* Some extra text class*/
+
+.text-wrap {
+  white-space: normal;
+}
+
+.text-break {
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+.text-decoration-line-through {
+  text-decoration: line-through;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+/* Text transform */
+
+.text-lowercase {
+  text-transform: lowercase;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+
+
 /* for  bottom line */
 .hr{
     margin: 2rem 0rem;
