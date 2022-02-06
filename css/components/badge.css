@@ -21,18 +21,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    top: -0.9375rem;
-    right: -0.5rem;
+    top: -0.6rem;  
+    right: -0.1rem;  
     position: absolute;
-    font-size: 0.9rem;
+    font-size: 0.6rem;
     color: var(--mint-white);
     font-weight: 900;
-    height: 1.125rem;
-    width: 1.125rem;
+    height: 0.4rem;
+    width: 0.4rem;
     border: none;
     background-color: var(--primary-color);
     border-radius: 50%;
-    padding: 0.875rem;
+    padding: 0.7rem;
 }
 
 .badge-item {
