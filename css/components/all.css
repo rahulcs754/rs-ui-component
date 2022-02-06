@@ -32,5 +32,9 @@
 
 
 
-/*modal css*/
+/*navigation css*/
 @import url("./navigation.css");
+
+
+/*rating css*/
+@import url("./rating.css");

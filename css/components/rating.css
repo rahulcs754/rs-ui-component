@@ -1,0 +1,7 @@
+/*
+|| Rating Css 
+*/
+.rating{
+    display: flex;
+    flex-direction: row;
+}   
