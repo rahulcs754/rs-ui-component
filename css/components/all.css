@@ -27,6 +27,10 @@
 @import url("./input.css");
 
 
-/*Toast Notify Snanckbar*/
+/*modal css*/
+@import url("./modal.css");
 
-@import url("./toast_notify_snackbar.css"); 
+/*List css*/
+@import url("./list.css");
+
+
