@@ -27,17 +27,17 @@
 /* small || medium | large content */
 .modal-s{
     width: 35%;
-    min-width: 40%;
+    max-width: 80%;
 }
 
 .modal-m{
     width: 50%;
-    min-width: 55%;
+    max-width: 80%;
 }
 
 .modal-l{
     width: 60%;
-    max-width: 75%;
+    max-width: 80%;
 }
 
 /* Model Close Button */
