@@ -29,7 +29,7 @@
 
 .header-logo a,
 .header-nav a {
-  padding: 10px 15px;
+  padding: 0.625rem 15px;
   text-transform: uppercase;
   text-align: center;
   display: block;
