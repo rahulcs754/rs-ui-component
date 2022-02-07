@@ -5,24 +5,30 @@
     display: flex;
     gap: 1px;
     padding: 1rem;
+   
 }   
 
 .rating-item{
     cursor: pointer;
-    font-size: 1rem;
-    color: var(--light-black);
+    font-size: 0.7rem;
+}
+
+.rating-item:hover{
+    color: var(--warning-color);
 }
 
 .rating-item-checked{
     color: var(--warning-color);
 }
 
+
+
 .rating-badge{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5px;
-    padding: 8px;
+    padding: 0.3rem 0.5rem ;
     background-color: var(--warning-color);
     color: var(--light-black);
     border-radius: 30%;
@@ -34,9 +40,9 @@
 }
 
 .rating-badge-text{
-    font-size:1rem ;
+    font-size:0.7rem ;
 }
 
 .rating-icon{
-    font-size:1rem ;
+    font-size:0.7rem ;
 }
