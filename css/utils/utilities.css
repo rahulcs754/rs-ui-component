@@ -326,6 +326,10 @@
 }
 
 /* text color */
+.text-white {
+  color: var(--mint-white);
+}
+
 .text-mute {
   color: var(--light-black);
 }
@@ -347,6 +351,9 @@
 }
 
 /* Bg color  */
+.bg-white {
+  color: var(--mint-white);
+}
 
 .bg-primary {
   background-color: var(--primary-color);
