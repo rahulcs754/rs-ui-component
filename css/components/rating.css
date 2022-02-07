@@ -3,5 +3,40 @@
 */
 .rating{
     display: flex;
-    flex-direction: row;
+    gap: 1px;
+    padding: 1rem;
 }   
+
+.rating-item{
+    cursor: pointer;
+    font-size: 1rem;
+    color: var(--light-black);
+}
+
+.rating-item-checked{
+    color: var(--warning-color);
+}
+
+.rating-badge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 8px;
+    background-color: var(--warning-color);
+    color: var(--light-black);
+    border-radius: 30%;
+}  
+
+.rating-badge-icon{
+    flex-grow: 1;
+    color: var(--light-black);
+}
+
+.rating-badge-text{
+    font-size:1rem ;
+}
+
+.rating-icon{
+    font-size:1rem ;
+}
