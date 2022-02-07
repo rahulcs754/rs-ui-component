@@ -1,0 +1,66 @@
+/*
+|| navigation css
+*/
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em;
+  border: 1px solid var(--light-more-black);
+  background-color: var(--mint-white);
+  -webkit-box-shadow: 0px 0px 14px 0px var(--light-black);
+  -moz-box-shadow: 0px 0px 14px 0px var(--light-black);
+  box-shadow: 0px 0px 14px 0px var(--light-black);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.header-logo {
+  margin: 0;
+  font-size: 1.45em;
+}
+
+.header-nav {
+  display: flex;
+  margin-top: 5px;
+}
+
+.header-logo a,
+.header-nav a {
+  padding: 10px 15px;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+}
+
+.header-nav a {
+  color: var(--light-black);
+  font-size: 0.99rem;
+}
+
+.header-icon {
+  color: var(--light-black);
+  font-size: 1.5rem;
+}
+
+.header-btn {
+  margin: 0.2rem;
+  min-width: 5.25rem;
+  width: max-content;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 400;
+  border: 1px solid var(--light-black);
+}
+
+.header-search-icon {
+  color: var(--light-black);
+}
+
+.header-number{
+    padding: 0.5rem;
+    top: -0.1rem;
+    right: 0.3rem;
+} 
