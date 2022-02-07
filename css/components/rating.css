@@ -5,7 +5,6 @@
     display: flex;
     gap: 1px;
     padding: 1rem;
-   
 }   
 
 .rating-item{
@@ -21,8 +20,6 @@
     color: var(--warning-color);
 }
 
-
-
 .rating-badge{
     display: flex;
     justify-content: center;
@@ -31,7 +28,7 @@
     padding: 0.3rem 0.5rem ;
     background-color: var(--warning-color);
     color: var(--light-black);
-    border-radius: 30%;
+    border-radius: 10%;
 }  
 
 .rating-badge-icon{
