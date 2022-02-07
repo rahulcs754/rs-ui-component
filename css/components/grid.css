@@ -111,6 +111,7 @@
   .col-sm-1 {
     grid-column: span 1;
   }
+  
 }
 
 @media (min-width: 992px) {
