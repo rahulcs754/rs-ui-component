@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      
+    <!-- Main css -->
+    <link rel="stylesheet" href="https://rs-ui.netlify.app/css/style.css">
+    <link rel="stylesheet" href="../doc.css">
+
+    <!-- Third party css -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/styles/monokai_sublime.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+    <div class="container">
+
+        <header class="doc-header doc-header-80 p-s">
+  
+            <div class="doc-header-left" >
+                <h2 class="size-m"> RS UI COMPONENT </h2>
+            </div> 
+
+            <div class="doc-header-right">
+                <ul class="doc-header-list"> 
+                    <li class="list-item">Docs</li>
+                </ul>
+            </div>
+
+        </header>
+
+        <!--- left sidebar -->
+        <div class="document-box m-l">
+            <div class="side-bar ">
+
+                <div class="list-container p-s">
+                    <div class="list-heading bt pb-s f-m">
+                         Get Started
+                    </div>
+                    <ul class="list-topic">
+                        <li>
+                            <a class="text-mute" href="">
+                                Introduction
+                            </a>
+                        </li>
+                        <li>
+                            <a  class="text-mute" href="intro/pages/Colors.html">
+                                Colors
+                            </a>
+                        </li>
+                        <li>
+                            <a  class="text-mute" href="intro/pages/typography.html">
+                                Typography
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="text-mute" href="intro/pages/avatar.html">
+                                Avatar
+                            </a>
+                        </li>
+
+                        <li>
+                            <a  class="text-mute" href="intro/pages/alert.html">
+                                Alert
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="text-mute" href="intro/pages/badge.html">
+                                Badge
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="text-mute" href="intro/pages/button.html">
+                                Button
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="text-mute" href="intro/pages/card.html">
+                                Card
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="text-mute" href="intro/pages/images.html">
+                                Image
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="text-mute" href="intro/pages/input.html">
+                                Input
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="text-mute" href="intro/pages/list.html">
+                                list
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="text-mute" href="intro/pages/modal.html">
+                                Modal
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="text-mute" href="intro/pages/navigation.html">
+                                Navigation
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="text-mute" href="intro/pages/grid.html">
+                                Grid layout
+                            </a>
+                        </li>   
+
+                    </ul>
+                </div>
+                
+
+            </div>
+            <!--- left sidebar -->
+
+
+            <!--- Right container -->
+            <div class="right-container p-s">
+              
+
+                <!--------------------------------------->
+                
+                <div class="content-title f-m font-l"><h2>Card</h2></div>
+                <div class="content-description">
+                    Cards are content containers. They are used to display items of similar types. It can range from as simple as card with only Heading and text to a complex card with multiple buttons and icons.
+                </div>
+                
+        
+                <hr class="hr">
+
+                <h3>Card with Badge</h3>
+
+                <div class="section-present">
+                    
+                    <div class="card card-overlay">                      
+            
+                        <img src="https://i.picsum.photos/id/135/2560/1920.jpg?hmac=MAh0eBIqBNEgND6D2vgcIBIQ4BE1jzewN1QQWDfBBEY" class="card-image" alt="Card-Image">
+                        <span class="card-with-badge">Off</span>
+                        <div class="card-header">
+                        <div class="card-title">Batman Begin</div>
+                        <div class="card-subtitle"> By rex</div>
+                        </div>
+                        <div class="card-info">
+                        <p class="card-price">Rs.2000</p>
+                        <p class="mrp-price">Rs.2500</p>
+                        <p class="card-discount">15% off</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-primary "> <i class="fas  fa-shopping-cart"></i> Add to Cart </button>
+                            <button class="btn btn-primary "> Buy Now </button>
+                        </div>
+                        </div>
+
+                </div>
+                <pre>
+                    <code id="code-html" class="code-simple xml" data-clipboard-target="#code-html">
+                          <div class="card card-overlay">                      
+                            <img src="https://i.picsum.photos/id/135/2560/1920.jpg?hmac=MAh0eBIqBNEgND6D2vgcIBIQ4BE1jzewN1QQWDfBBEY" class="card-image" alt="Card-Image">
+                            <span class="card-with-badge">Off</span>
+                            <div class="card-header">
+                            <div class="card-title">Batman Begin</div>
+                            <div class="card-subtitle"> By rex</div>
+                            </div>
+                            <div class="card-info">
+                            <p class="card-price">Rs.2000</p>
+                            <p class="mrp-price">Rs.2500</p>
+                            <p class="card-discount">15% off</p>
+                            </div>
+                            <div class="card-footer">
+                                <button class="btn btn-primary "> <i class="fas  fa-shopping-cart"></i> Add to Cart </button>
+                                <button class="btn btn-primary "> Buy Now </button>
+                            </div>
+                            </div>
+
+                    </code>
+                </pre>
+
+
+                <hr class="hr">
+
+                <h3>card with dismiss</h3> 
+
+                <div class="section-present">
+                    <div class="card card-overlay">
+                        <img src="https://i.picsum.photos/id/135/2560/1920.jpg?hmac=MAh0eBIqBNEgND6D2vgcIBIQ4BE1jzewN1QQWDfBBEY" class="card-image" alt="Card-Image">
+                        <i class="card-close-icon far fa-times-circle"></i>
+                        <div class="card-header">
+                        <div class="card-title">Batman Second Part</div>
+                        <div class="card-subtitle">
+                        By roli moli
+                        </div>
+                        </div>
+                        <div class="card-info">
+                        <p class="card-price">Rs.320</p>
+                        <p class="mrp-price">Rs.2500</p>
+                        <p class="card-discount">60% off</p>
+                        </div>
+                        <div class="card-footer ">
+                            <button class="btn btn-primary "> <i class="fas  fa-shopping-cart"></i> Add to Cart </button>
+                            <button class="btn btn-primary "> Buy Now </button>
+                        </div>
+                        </div>  
+
+                </div>
+
+                <pre>
+                    <code id="code-html" class="code-simple xml" data-clipboard-target="#code-html">
+                       
+                        <div class="card card-overlay">
+                            <img src="https://i.picsum.photos/id/135/2560/1920.jpg?hmac=MAh0eBIqBNEgND6D2vgcIBIQ4BE1jzewN1QQWDfBBEY" class="card-image" alt="Card-Image">
+                            <i class="card-close-icon far fa-times-circle"></i>
+                            <div class="card-header">
+                            <div class="card-title">Batman Second Part</div>
+                            <div class="card-subtitle">
+                            By roli moli
+                            </div>
+                            </div>
+                            <div class="card-info">
+                            <p class="card-price">Rs.320</p>
+                            <p class="mrp-price">Rs.2500</p>
+                            <p class="card-discount">60% off</p>
+                            </div>
+                            <div class="card-footer ">
+                                <button class="btn btn-primary "> <i class="fas  fa-shopping-cart"></i> Add to Cart </button>
+                                <button class="btn btn-primary "> Buy Now </button>
+                            </div>
+                            </div>  
+
+                    </code>
+                </pre>
+
+                
+
+                <hr class="hr">
+
+                <h3>card with text overlay</h3> 
+
+                <div class="section-present">
+                    <div class="card card-overlay">
+                        <img src="https://i.picsum.photos/id/135/2560/1920.jpg?hmac=MAh0eBIqBNEgND6D2vgcIBIQ4BE1jzewN1QQWDfBBEY" class="card-image" alt="Card-Image">
+                        
+                        <div class="card-title-overlay">
+                            <div class="card-title">Card Title</div>
+                            <div class="card-subtitle">
+                            Card subtitle
+                            </div>
+                        </div>
+                    
+                        <div class="card-info">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, deserunt.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="" class="text-btn">Read</a>
+                            <a href="" class="text-btn">Bookmark</a>
+                            <a href=""><i class="card-icon fa fa-heart"></i></a>
+                            <a href=""><i class="card-icon fa fa-share-alt"></i></a>
+                            <a href=""><i class="card-icon fa fa-ellipsis-v"></i></a>
+                            
+                        </div>
+                    </div>  
+
+                </div>
+
+                <pre>
+                    <code id="code-html" class="code-simple xml" data-clipboard-target="#code-html">
+                       
+                        <div class="card card-overlay">
+                            <img src="https://i.picsum.photos/id/135/2560/1920.jpg?hmac=MAh0eBIqBNEgND6D2vgcIBIQ4BE1jzewN1QQWDfBBEY" class="card-image" alt="Card-Image">
+                            
+                            <div class="card-title-overlay">
+                                <div class="card-title">Card Title</div>
+                                <div class="card-subtitle">
+                                Card subtitle
+                                </div>
+                            </div>
+                        
+                            <div class="card-info">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, deserunt.</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="" class="text-btn">Read</a>
+                                <a href="" class="text-btn">Bookmark</a>
+                                <a href=""><i class="card-icon fa fa-heart"></i></a>
+                                <a href=""><i class="card-icon fa fa-share-alt"></i></a>
+                                <a href=""><i class="card-icon fa fa-ellipsis-v"></i></a>
+                                
+                            </div>
+                        </div>  
+                    </code>
+                </pre>
+
+
+
+
+                <hr class="hr">
+
+                <h3>Text only card</h3> 
+
+                <div class="section-present">
+                    
+                    <div class="card">
+                        <div class="card-header">
+                        <div class="card-title">Batman Young</div>
+                        <div class="card-subtitle">
+                        By moli roli
+                        </div>
+                        </div>
+                        <div class="card-info">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, deserunt.</p>
+                        </div>
+                        <div class="card-footer">
+                        <a href="" class="text-btn">Read</a>
+                        <a href="" class="text-btn">Bookmark</a>
+                        <a href=""><i class="card-icon fa fa-heart"></i></a>
+                        <a href=""><i class="card-icon fa fa-share-alt"></i></a>
+                        <a href=""><i class="card-icon fa fa-ellipsis-v"></i></a>
+                        
+                        </div>
+                        </div>
+
+                </div>
+
+                <pre>
+                    <code id="code-html" class="code-simple xml" data-clipboard-target="#code-html">
+                       
+                        <div class="card">
+                            <div class="card-header">
+                            <div class="card-title">Batman Young</div>
+                            <div class="card-subtitle">
+                            By moli roli
+                            </div>
+                            </div>
+                            <div class="card-info">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, deserunt.</p>
+                            </div>
+                            <div class="card-footer">
+                            <a href="" class="text-btn">Read</a>
+                            <a href="" class="text-btn">Bookmark</a>
+                            <a href=""><i class="card-icon fa fa-heart"></i></a>
+                            <a href=""><i class="card-icon fa fa-share-alt"></i></a>
+                            <a href=""><i class="card-icon fa fa-ellipsis-v"></i></a>
+                            
+                            </div>
+                            </div>
+                    </code>
+                </pre>
+
+
+
+
+                <hr class="hr">
+
+                <h3>Horizontal Card</h3> 
+
+                <div class="section-present">
+                      <div class="card ">
+                        <div class="card-part-horizontal">
+              
+                            <div class="card-img-horizontal">
+                            <img src="https://i.picsum.photos/id/135/2560/1920.jpg?hmac=MAh0eBIqBNEgND6D2vgcIBIQ4BE1jzewN1QQWDfBBEY" class="card-image-hr" alt="Card-Image">
+                            </div>
+                            <div class="card-header-horizontal">
+                                <div class="card-title">Card Title</div>
+                                    <div class="card-subtitle">
+                                    Card subtitle
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="card-footer">
+                        <a href="" class="text-btn">Read</a>
+                        <a href="" class="text-btn">Bookmark</a>
+                        <a href=""><i class="card-icon fa fa-heart"></i></a>
+                        <a href=""><i class="card-icon fa fa-share-alt"></i></a>
+                        <a href=""><i class="card-icon fa fa-ellipsis-v"></i></a>                    
+                        </div>
+                        </div>
+
+                </div>
+
+                <pre>
+                    <code id="code-html" class="code-simple xml" data-clipboard-target="#code-html">
+                        <div class="card ">
+                            <div class="card-part-horizontal">
+                  
+                                <div class="card-img-horizontal">
+                                <img src="https://i.picsum.photos/id/135/2560/1920.jpg?hmac=MAh0eBIqBNEgND6D2vgcIBIQ4BE1jzewN1QQWDfBBEY" class="card-image-hr" alt="Card-Image">
+                                </div>
+                                <div class="card-header-horizontal">
+                                    <div class="card-title">Card Title</div>
+                                        <div class="card-subtitle">
+                                        Card subtitle
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="card-footer">
+                            <a href="" class="text-btn">Read</a>
+                            <a href="" class="text-btn">Bookmark</a>
+                            <a href=""><i class="card-icon fa fa-heart"></i></a>
+                            <a href=""><i class="card-icon fa fa-share-alt"></i></a>
+                            <a href=""><i class="card-icon fa fa-ellipsis-v"></i></a>                    
+                            </div>
+                            </div>
+
+                    </code>
+                </pre>
+
+
+
+
+                <hr class="hr">
+
+                <h3>card with Shadow</h3> 
+                <div class="section-present">
+                    <div class="card card-shadow">
+                        <img src="https://i.picsum.photos/id/135/2560/1920.jpg?hmac=MAh0eBIqBNEgND6D2vgcIBIQ4BE1jzewN1QQWDfBBEY" class="card-image" alt="Card-Image">
+                        <div class="card-header">
+                            <div class="card-title">Batman Again</div>
+                            <div class="card-subtitle">
+                            By moli boli
+                            </div>
+                        </div>
+                        <div class="card-info">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, deserunt.</p>
+                        </div>
+                        <div class="card-footer">
+                        <a href="" class="text-btn">Read</a>
+                        <a href="" class="text-btn">Bookmark</a>
+                        <a href=""><i class="fa fa-heart card-icon"></i></a>
+                        <a href=""><i class="fa fa-share-alt card-icon"></i></a>
+                        <a href=""><i class="fa fa-ellipsis-v card-icon"></i></a>             
+                        </div>
+                        </div>
+
+                </div>
+
+                <pre>
+                    <code id="code-html" class="code-simple xml" data-clipboard-target="#code-html">
+                        <div class="card card-shadow">
+                            <img src="https://i.picsum.photos/id/135/2560/1920.jpg?hmac=MAh0eBIqBNEgND6D2vgcIBIQ4BE1jzewN1QQWDfBBEY" class="card-image" alt="Card-Image">
+                            <div class="card-header">
+                                <div class="card-title">Batman Again</div>
+                                <div class="card-subtitle">
+                                By moli boli
+                                </div>
+                            </div>
+                            <div class="card-info">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, deserunt.</p>
+                            </div>
+                            <div class="card-footer">
+                            <a href="" class="text-btn">Read</a>
+                            <a href="" class="text-btn">Bookmark</a>
+                            <a href=""><i class="fa fa-heart card-icon"></i></a>
+                            <a href=""><i class="fa fa-share-alt card-icon"></i></a>
+                            <a href=""><i class="fa fa-ellipsis-v card-icon"></i></a>             
+                            </div>
+                            </div>
+
+                    </code>
+                </pre>
+
+
+
+                <hr class="hr">
+
+                <h3>card with above title</h3> 
+
+                <div class="section-present">
+                    <div class="card card-shadow ">
+                        <div class="card-header">
+                            <div class="card-title">Batman Again</div>
+                            <div class="card-subtitle">
+                            By moli boli
+                            </div>
+                        </div>
+                    
+                        <img src="https://i.picsum.photos/id/135/2560/1920.jpg?hmac=MAh0eBIqBNEgND6D2vgcIBIQ4BE1jzewN1QQWDfBBEY" class="card-image" alt="Card-Image">
+                    
+                        <div class="card-info">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, deserunt.</p>
+                        </div>
+                        <div class="card-footer">
+                        <a href="" class="text-btn">Read</a>
+                        <a href="" class="text-btn">Bookmark</a>
+                        <a href=""><i class="fa fa-heart card-icon"></i></a>
+                        <a href=""><i class="fa fa-share-alt card-icon"></i></a>
+                        <a href=""><i class="fa fa-ellipsis-v card-icon"></i></a>           
+                        </div>
+                    </div>
+
+                </div>
+
+                <pre>
+                    <code id="code-html" class="code-simple xml" data-clipboard-target="#code-html">
+                        <div class="card card-shadow ">
+                            <div class="card-header">
+                                <div class="card-title">Batman Again</div>
+                                <div class="card-subtitle">
+                                By moli boli
+                                </div>
+                            </div>
+                        
+                            <img src="https://i.picsum.photos/id/135/2560/1920.jpg?hmac=MAh0eBIqBNEgND6D2vgcIBIQ4BE1jzewN1QQWDfBBEY" class="card-image" alt="Card-Image">
+                        
+                            <div class="card-info">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, deserunt.</p>
+                            </div>
+                            <div class="card-footer">
+                            <a href="" class="text-btn">Read</a>
+                            <a href="" class="text-btn">Bookmark</a>
+                            <a href=""><i class="fa fa-heart card-icon"></i></a>
+                            <a href=""><i class="fa fa-share-alt card-icon"></i></a>
+                            <a href=""><i class="fa fa-ellipsis-v card-icon"></i></a>           
+                            </div>
+                        </div>
+
+                    </code>
+                </pre>
+
+
+              
+
+
+
+
+                    
+            </div>
+            <!--- Right container -->
+
+        </div>
+
+
+       
+    </div>
+    <footer class="footer">
+      <span>  
+          
+      </span> 
+       <span> Connect  - <a href="https://www.linkedin.com/in/rahulcs754/" target="_blank"><i class="fab fa-linkedin connect-link"></i></a> | <a href="https://github.com/rahulcs754" target="_blank"><i class="fab fa-github connect-link"></i></a>  |  <a href="https://twitter.com/Rahulcs754" target="_blank" ><i class="fab fa-twitter connect-link"></i></a>  Rahul Shukla</span>
+    </footer>
+
+
+
+ <!-- script part -->
+
+ <script>
+	document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/highlight.min.js"><\/script>')
+</script>
+<script>
+	hljs.initHighlightingOnLoad();
+</script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.5/clipboard.min.js'></script>
+<script  src="../doc.js"></script>
+
+ <!-- script part -->
+
+</body>
+</html>

@@ -1,15 +1,5 @@
 /*  Author : Rahul Shukla  */
 
-/* ---------------------------------------------
-Table of contents
-------------------------------------------------
--> reset
--> global styles
--> Avoid text overflows
--> header
--> media query
---------------------------------------------- */
-
 
 /*
 Global Style 
@@ -74,8 +64,8 @@ ul, li {
 :root{
   /* main set */
   --dark-blue:#1D4ED8;
-  --light-blue:#2563EB;	
-  --light-more-blue:#3B82F6;	
+  --light-blue:#83a7f5;	
+  --light-more-blue:#c4d7f7;	
    
 
   /* extra set */
@@ -358,6 +348,58 @@ button{
   border-bottom: 1px solid var(--light-black);
 }
 
+.d-display{
+  display: block;
+  width: 100%;
+}
+
+/* text color */
+.text-white {
+  color: var(--mint-white);
+}
+
+.text-mute {
+  color: var(--light-black);
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-success {
+  color: var(--success-color);
+}
+
+.text-warning {
+  color: var(--warning-color);
+}
+
+.text-danger {
+  color: var(--alert-color);
+}
+
+/* Bg color  */
+.bg-white {
+  color: var(--mint-white);
+}
+
+.bg-primary {
+  background-color: var(--primary-color);
+}
+
+.bg-success {
+  background-color: var(--success-color);
+}
+
+.bg-warning {
+  background-color: var(--warning-color);
+}
+
+.bg-danger {
+  background-color: var(--alert-color);
+}
+
+
 /* body data */
 
 .container {
@@ -369,28 +411,28 @@ button{
   place-content: center;
 }
 
-.header{
+.doc-header{
   display: flex;
   flex-direction: row;  
   justify-content: space-between;
   align-items:center;
 }
 
-.header-100 {
+.doc-header-100 {
   min-width: 100%;
 }
 
-.header-80{
+.doc-header-80{
   min-width: 80%;
 }
 
-.header-70{
+.doc-header-70{
   min-width: 70%;
 }
  
 
 
-.header-right{
+.doc-header-right{
   font-size: 1rem;
 }
 
@@ -432,6 +474,18 @@ button{
   padding: 1rem;
   color: var( --mint-white);
 }
+
+.section-present {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-width: 20rem;
+  background-color: var(--light-more-blue);
+  padding: 3rem;
+  margin: 1rem auto;
+}
+
 
 
 /* button */
@@ -494,9 +548,6 @@ button{
 .list-topic{
   color: var(--light-black);
 }
- 
-
-
 
 .hr{
     margin: 2rem 0rem;
@@ -508,10 +559,19 @@ button{
 /* hightlight code */
 
 .code {
-    margin: 0 5%;
-    padding-left: 2rem;
-    font-size: 1em;
-    cursor: pointer;  
+  margin: 0 auto;
+  font-size: 1em;
+  cursor: pointer;
+  display: flex !important;
+  justify-content: center;
+  padding: 1rem;
+}
+
+
+.code-simple {
+  margin: 0 auto;
+  font-size: 1em;
+  cursor: pointer;
 }
 
 /*

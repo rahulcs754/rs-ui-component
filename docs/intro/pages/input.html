@@ -7,7 +7,8 @@
     <title>Document</title>
       
     <!-- Main css -->
-    <link rel="stylesheet" href="intro/doc.css">
+    <link rel="stylesheet" href="https://rs-ui.netlify.app/css/style.css">
+    <link rel="stylesheet" href="../doc.css">
 
     <!-- Third party css -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
@@ -32,7 +33,7 @@
             </div>
 
         </header>
-  
+
         <!--- left sidebar -->
         <div class="document-box m-l">
             <div class="side-bar ">
@@ -104,21 +105,11 @@
                             <a class="text-mute" href="intro/pages/list.html">
                                 list
                             </a>
-                        </li>  
-                        <li>
-                            <a class="text-mute" href="intro/pages/toast.html">
-                                Toast
-                            </a>
-                        </li>  
-                        <li>
-                            <a class="text-mute" href="intro/pages/modal.html">
-                                Modal
-                            </a>
                         </li>
 
                         <li>
-                            <a class="text-mute" href="intro/pages/rating.html">
-                                Rating
+                            <a class="text-mute" href="intro/pages/modal.html">
+                                Modal
                             </a>
                         </li>
 
@@ -129,7 +120,7 @@
                         </li>
 
                         <li>
-                            <a class="text-mute" href="intro/pages/grid_layout.html">
+                            <a class="text-mute" href="intro/pages/grid.html">
                                 Grid layout
                             </a>
                         </li>   
@@ -144,26 +135,117 @@
 
             <!--- Right container -->
             <div class="right-container p-s">
-                
-                <div class="content-title f-l font-s">Introduction to RS</div>
-                <div class="content-description">
-                    RS is an open source styling framework, which helps Developers to use best styles and components, by using pre-defined classnames. RS helps you to quickly build your Web Project.
-                </div>
-                <hr class="hr">
+              
 
                 <!--------------------------------------->
                 
-                <div class="content-title f-m font-s">Installation Guide</div>
+                <div class="content-title f-m font-l"><h2>Inputs</h2></div>
                 <div class="content-description">
-                    Copy the Link given below and paste it in the <head> tag of your html, above all other style sheets.
+                    inputs are necessary for user interaction with the website. Inputs are used to take information from the user, and then save the data to the server, accordingly.
                 </div>
+                
+        
+                <hr class="hr">
+                <h3>Normal input</h3>
+                <div class="section-present">
+                    <form>    
 
+                        <div class="input-box">
+                            <label class="label-text" >User</label>
+                            <input type="text" class="field-item" required >
+                        </div>
+            
+                    </form>
+            
+                </div>
                 <pre>
-                    <code id="code-html" class="code xml" data-clipboard-target="#code-html">
-                        <link rel="stylesheet" href="https://rs-ui.netlify.app/css/style.css">
+                    <code id="code-html" class="code-simple xml" data-clipboard-target="#code-html">
+                        <div class="input-box">
+                            <label class="label-text" >User</label>
+                            <input type="text" class="field-item" required >
+                        </div>
                     </code>
                 </pre>
 
+
+                <hr class="hr">
+                <h3>Error input</h3>
+                <div class="section-present">
+                    <form >    
+
+                        <div class="input-box error-box">
+                               <label class="label-text" >User</label>
+                    
+                                <input type="text" class="field-item" required>   
+                                <div class="error-text">Please enter value</div>
+                        </div>
+            
+                    </form>
+            
+                </div>
+                <pre>
+                    <code id="code-html" class="code-simple xml" data-clipboard-target="#code-html">
+                        <div class="input-box error-box">
+                            <label class="label-text" >User</label>
+                 
+                             <input type="text" class="field-item" required>   
+                             <div class="error-text">Please enter value</div>
+                        </div>
+                    </code>
+                </pre>
+
+
+                <hr class="hr">
+                <h3>Success input</h3>
+                <div class="section-present">
+                    <form >    
+
+                        <div class="input-box  success-box">
+                            <label class="label-text" >User</label>
+                 
+                             <input type="text" class="field-item" required>   
+                             <div class="error-text">Please enter value</div>
+                         </div>
+            
+                    </form>
+            
+                </div>
+                <pre>
+                    <code id="code-html" class="code-simple xml" data-clipboard-target="#code-html">
+                        <div class="input-box  success-box">
+                            <label class="label-text" >User</label>
+                 
+                             <input type="text" class="field-item" required>   
+                             <div class="error-text">Please enter value</div>
+                        </div>
+                    </code>
+                </pre>
+
+
+
+                <hr class="hr">
+                <h3>Error with icon</h3>
+                <div class="section-present">
+                    <form >
+                    <div class="input-box input-box-icon">
+                        <label class="label-text" >User</label>
+             
+                         <input type="text" class="field-item" required>   
+                         <div class="error-icon"><i class="fas fa-exclamation-triangle input-error-icon"></i></div>
+                   </div>
+                </form >
+                   
+                </div>
+                <pre>
+                    <code id="code-html" class="code-simple xml" data-clipboard-target="#code-html">
+                        <div class="input-box input-box-icon">
+                            <label class="label-text" >User</label>
+                 
+                             <input type="text" class="field-item" required>   
+                             <div class="error-icon"><i class="fas fa-exclamation-triangle input-error-icon"></i></div>
+                         </div>
+                    </code>
+                </pre>
 
                     
             </div>
@@ -194,7 +276,7 @@
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.5/clipboard.min.js'></script>
-<script  src="intro/doc.js"></script>
+<script  src="../doc.js"></script>
 
  <!-- script part -->
 

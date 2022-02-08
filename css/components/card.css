@@ -1,16 +1,15 @@
 /*
 || Card Css
 */
-
 .card{
     display: flex;
     flex-direction: column;
     height: auto;
     min-width: 18rem;
     max-width: 18rem;
-    background-color: var(--mint-white);   
+    background-color: var(--mint-white);    
     outline: 1px solid var(--light-more-black);
-}
+}  
 
 .card-overlay{
     position: relative;
