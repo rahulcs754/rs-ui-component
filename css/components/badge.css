@@ -14,23 +14,23 @@
 
 .badge-icon {
     margin: 0 0.625rem;  
-    font-size: 2rem;
+    font-size: auto;
 }
-
+ 
 .badge-number{
-    font-size: 15px;
+    font-size: 0.5625rem;
     background: var(--warning-color);
-    color: var(--light-black);
-    min-width: 1.5rem;
-    height: 1.5rem;
+    color: var(--dark-black);
+    width: 1rem;
+    height: 1rem;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: -10px;
-    right: -1px;   
-    font-weight: 600;
+    top: -0.625em;
+    right: -0.0625em;
+    font-weight: 700;
 }
 
 .badge-item {
