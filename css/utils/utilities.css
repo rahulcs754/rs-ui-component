@@ -357,6 +357,10 @@
   justify-content: center;
 }
 
+.flex-grow{
+  flex-grow: 1;
+}
+
 /* hightlight code */
 .code {
   margin: 0 5%;
@@ -458,4 +462,3 @@
 .width-30{
   width: 30%;
 }
-
