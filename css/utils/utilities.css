@@ -462,3 +462,12 @@
 .width-30{
   width: 30%;
 }
+
+/* some margin */
+.margin-right{
+  margin-right: auto;
+}
+
+.margin-left{
+  margin-left:auto;
+}
