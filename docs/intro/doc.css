@@ -485,27 +485,6 @@ button{
   padding: 3rem;
   margin: 1rem auto;
 }
-
-
-
-/* button */
-
-.btn {
-  padding: 0.7rem 0.8rem;
-  border-radius: 5px;
-  box-shadow: 2px 2px var(--light-black); 
-}
- 
-.btn-primary{
-  background: var(--primary);
-  color: var(--mint-white);
-}
-
-.btn:hover{
-  background: var(--dark-blue);
-  color: var(--mint-white);
-  box-shadow: 4px 4px var(--light-black); 
-}
  
 .footer{
   margin-top: auto;
