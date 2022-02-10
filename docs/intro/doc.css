@@ -411,6 +411,13 @@ button{
   place-content: center;
 }
 
+.container-full {
+  margin:0 auto;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+}
+
 .doc-header{
   display: flex;
   flex-direction: row;  
@@ -506,21 +513,18 @@ button{
   flex-direction: row;
   flex-wrap: wrap;
   margin-top:2rem;
- /* border: 1px solid rebeccapurple;*/
   min-height: 50vh;
 }
 
 .side-bar{
-  flex: 0 0 15rem; /* flex grow flex shrin flex-basis */
-  /*border: 1px solid rosybrown;*/
+  flex: 0 0 15rem; 
 }
 
 
 .right-container{
- /* border: 1px solid salmon;*/
   margin: 0px auto;
-  max-width: 50rem;
-  flex: 1 1 0%; /* flex-grow flex-shrink flex-basic */
+  max-width: 65rem;
+  flex: 1 1 0%;
 }
 
 /* sidebar list */
