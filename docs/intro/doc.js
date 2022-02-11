@@ -10,6 +10,11 @@ $(".code").click(function() {
 	toastr.success('&nbsp; &nbsp; Copied to the clipboard');
 });
 
+$(".code-simple").click(function() {
+	toastr.options.positionClass = "toast-top-right";
+	toastr.success('&nbsp; &nbsp; Copied to the clipboard');
+});
+
 
 const codeBlocks = document.querySelectorAll("pre code");
     codeBlocks.forEach((codeBlock) => {
