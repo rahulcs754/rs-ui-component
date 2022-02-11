@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Component - Card</title>
+    <link rel="icon" href="../../../docs/intro/img/logoicons.ico" type="image/x-icon" />
       
     <!-- Main css -->
     <link rel="stylesheet" href="https://rs-ui.netlify.app/css/style.css">
@@ -18,21 +19,17 @@
 </head>
 <body>
 
-    <div class="container">
+    <header class="header">
+        <h1 class="header-logo"><a href="#">RS UI </a></h1>
 
-        <header class="doc-header doc-header-80 p-s">
-  
-            <div class="doc-header-left" >
-                <h2 class="size-m"> RS UI COMPONENT </h2>
-            </div> 
+        <ul class="header-nav">
+            <li><a href="https://rs-ui.netlify.app/"> Home </a></li>
+            <li><a href="https://rs-ui.netlify.app/textutility.html"> Component List </a></li>
+        </ul>
+    
+    </header>
 
-            <div class="doc-header-right">
-                <ul class="doc-header-list"> 
-                    <li class="list-item">Docs</li>
-                </ul>
-            </div>
-
-        </header>
+    <div class="container-full">
 
         <!--- left sidebar -->
         <div class="document-box m-l">
@@ -40,94 +37,95 @@
 
                 <div class="list-container p-s">
                     <div class="list-heading bt pb-s f-m">
-                         Get Started
+                        Component List
                     </div>
-                    <ul class="list-topic">
+                    <ul class="list-topic mb-l">
+                        
                         <li>
-                            <a class="text-mute" href="">
-                                Introduction
-                            </a>
-                        </li>
-                        <li>
-                            <a  class="text-mute" href="intro/pages/Colors.html">
-                                Colors
-                            </a>
-                        </li>
-                        <li>
-                            <a  class="text-mute" href="intro/pages/typography.html">
-                                Typography
+                            <a  class="text-mute" href="textutility.html">
+                                Text Utilities
                             </a>
                         </li>
 
                         <li>
-                            <a class="text-mute" href="intro/pages/avatar.html">
+                            <a class="text-mute " href="avatar.html">
                                 Avatar
                             </a>
                         </li>
 
                         <li>
-                            <a  class="text-mute" href="intro/pages/alert.html">
+                            <a  class="text-mute" href="alert.html">
                                 Alert
                             </a>
                         </li>
 
                         <li>
-                            <a class="text-mute" href="intro/pages/badge.html">
+                            <a class="text-mute" href="badge.html">
                                 Badge
                             </a>
                         </li>
 
                         <li>
-                            <a class="text-mute" href="intro/pages/button.html">
+                            <a class="text-mute" href="button.html">
                                 Button
                             </a>
                         </li>
 
                         <li>
-                            <a class="text-mute" href="intro/pages/card.html">
+                            <a class="text-mute font-l text-primary" href="card.html">
                                 Card
                             </a>
                         </li>
 
                         <li>
-                            <a class="text-mute" href="intro/pages/images.html">
+                            <a class="text-mute" href="images.html">
                                 Image
                             </a>
                         </li>
 
                         <li>
-                            <a class="text-mute" href="intro/pages/input.html">
+                            <a class="text-mute" href="input.html">
                                 Input
                             </a>
                         </li>
 
                         <li>
-                            <a class="text-mute" href="intro/pages/list.html">
+                            <a class="text-mute" href="list.html">
                                 list
                             </a>
-                        </li>
-
+                        </li>  
                         <li>
-                            <a class="text-mute" href="intro/pages/modal.html">
+                            <a class="text-mute" href="toast.html">
+                                Toast
+                            </a>
+                        </li>  
+                        <li>
+                            <a class="text-mute" href="modal.html">
                                 Modal
                             </a>
                         </li>
 
                         <li>
-                            <a class="text-mute" href="intro/pages/navigation.html">
+                            <a class="text-mute" href="rating.html">
+                                Rating
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="text-mute" href="navigation.html">
                                 Navigation
                             </a>
                         </li>
 
                         <li>
-                            <a class="text-mute" href="intro/pages/grid.html">
+                            <a class="text-mute" href="grid_layout.html">
                                 Grid layout
                             </a>
                         </li>   
 
                     </ul>
                 </div>
-                
+            
 
             </div>
             <!--- left sidebar -->
@@ -165,8 +163,8 @@
                         <p class="card-discount">15% off</p>
                         </div>
                         <div class="card-footer">
-                            <button class="btn btn-primary "> <i class="fas  fa-shopping-cart"></i> Add to Cart </button>
-                            <button class="btn btn-primary "> Buy Now </button>
+                            <button class="btn btn-link"><a href='#'> <i class="fas  fa-shopping-cart"></i> Checkout</a></button>
+                            <button class="btn btn-link"><a href='#'>Buy Now</a></button>
                         </div>
                         </div>
 
@@ -215,8 +213,8 @@
                         <p class="card-discount">60% off</p>
                         </div>
                         <div class="card-footer ">
-                            <button class="btn btn-primary "> <i class="fas  fa-shopping-cart"></i> Add to Cart </button>
-                            <button class="btn btn-primary "> Buy Now </button>
+                            <button class="btn btn-link"><a href='#'><i class="fas  fa-shopping-cart"></i> Checkout</a></button>
+                            <button class="btn btn-link"><a href='#'>Buy Now</a></button>
                         </div>
                         </div>  
 
@@ -240,8 +238,8 @@
                             <p class="card-discount">60% off</p>
                             </div>
                             <div class="card-footer ">
-                                <button class="btn btn-primary "> <i class="fas  fa-shopping-cart"></i> Add to Cart </button>
-                                <button class="btn btn-primary "> Buy Now </button>
+                                <button class="btn btn-link"><a href='#'><i class="fas  fa-shopping-cart"></i> Checkout</a></button>
+                                <button class="btn btn-link"><a href='#'>Buy Now</a></button>
                             </div>
                             </div>  
 
@@ -269,8 +267,8 @@
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, deserunt.</p>
                         </div>
                         <div class="card-footer">
-                            <a href="" class="text-btn">Read</a>
-                            <a href="" class="text-btn">Bookmark</a>
+                            <button class="btn btn-link"><a href='#'>Checkout</a></button>
+                            <button class="btn btn-link"><a href='#'>Buy</a></button>
                             <a href=""><i class="card-icon fa fa-heart"></i></a>
                             <a href=""><i class="card-icon fa fa-share-alt"></i></a>
                             <a href=""><i class="card-icon fa fa-ellipsis-v"></i></a>
@@ -297,8 +295,8 @@
                                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, deserunt.</p>
                             </div>
                             <div class="card-footer">
-                                <a href="" class="text-btn">Read</a>
-                                <a href="" class="text-btn">Bookmark</a>
+                                <button class="btn btn-link"><a href='#'>Checkout</a></button>
+                                <button class="btn btn-link"><a href='#'>Buy Now</a></button>
                                 <a href=""><i class="card-icon fa fa-heart"></i></a>
                                 <a href=""><i class="card-icon fa fa-share-alt"></i></a>
                                 <a href=""><i class="card-icon fa fa-ellipsis-v"></i></a>
@@ -328,8 +326,8 @@
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, deserunt.</p>
                         </div>
                         <div class="card-footer">
-                        <a href="" class="text-btn">Read</a>
-                        <a href="" class="text-btn">Bookmark</a>
+                        <button class="btn btn-link"><a href='#'>Checkout</a></button>
+                        <button class="btn btn-link"><a href='#'>Buy Now</a></button>
                         <a href=""><i class="card-icon fa fa-heart"></i></a>
                         <a href=""><i class="card-icon fa fa-share-alt"></i></a>
                         <a href=""><i class="card-icon fa fa-ellipsis-v"></i></a>
@@ -353,8 +351,8 @@
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, deserunt.</p>
                             </div>
                             <div class="card-footer">
-                            <a href="" class="text-btn">Read</a>
-                            <a href="" class="text-btn">Bookmark</a>
+                            <button class="btn btn-link"><a href='#'>Checkout</a></button>
+                            <button class="btn btn-link"><a href='#'>Buy Now</a></button>
                             <a href=""><i class="card-icon fa fa-heart"></i></a>
                             <a href=""><i class="card-icon fa fa-share-alt"></i></a>
                             <a href=""><i class="card-icon fa fa-ellipsis-v"></i></a>
@@ -363,8 +361,6 @@
                             </div>
                     </code>
                 </pre>
-
-
 
 
                 <hr class="hr">
@@ -386,8 +382,8 @@
                                 </div>
                         </div>
                         <div class="card-footer">
-                        <a href="" class="text-btn">Read</a>
-                        <a href="" class="text-btn">Bookmark</a>
+                        <button class="btn btn-link"><a href='#'>Checkout</a></button>
+                        <button class="btn btn-link"><a href='#'>Buy Now</a></button>
                         <a href=""><i class="card-icon fa fa-heart"></i></a>
                         <a href=""><i class="card-icon fa fa-share-alt"></i></a>
                         <a href=""><i class="card-icon fa fa-ellipsis-v"></i></a>                    
@@ -412,9 +408,8 @@
                                     </div>
                             </div>
                             <div class="card-footer">
-                            <a href="" class="text-btn">Read</a>
-                            <a href="" class="text-btn">Bookmark</a>
-                            <a href=""><i class="card-icon fa fa-heart"></i></a>
+                            <button class="btn btn-link"><a href='#'>Checkout</a></button>
+                            <button class="btn btn-link"><a href='#'>Buy Now</a></button>                            <a href=""><i class="card-icon fa fa-heart"></i></a>
                             <a href=""><i class="card-icon fa fa-share-alt"></i></a>
                             <a href=""><i class="card-icon fa fa-ellipsis-v"></i></a>                    
                             </div>
@@ -442,8 +437,8 @@
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, deserunt.</p>
                         </div>
                         <div class="card-footer">
-                        <a href="" class="text-btn">Read</a>
-                        <a href="" class="text-btn">Bookmark</a>
+                        <button class="btn btn-link"><a href='#'>Checkout</a></button>
+                        <button class="btn btn-link"><a href='#'>Buy Now</a></button>
                         <a href=""><i class="fa fa-heart card-icon"></i></a>
                         <a href=""><i class="fa fa-share-alt card-icon"></i></a>
                         <a href=""><i class="fa fa-ellipsis-v card-icon"></i></a>             
@@ -466,8 +461,8 @@
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, deserunt.</p>
                             </div>
                             <div class="card-footer">
-                            <a href="" class="text-btn">Read</a>
-                            <a href="" class="text-btn">Bookmark</a>
+                            <button class="btn btn-link"><a href='#'>Checkout</a></button>
+                            <button class="btn btn-link"><a href='#'>Buy Now</a></button>
                             <a href=""><i class="fa fa-heart card-icon"></i></a>
                             <a href=""><i class="fa fa-share-alt card-icon"></i></a>
                             <a href=""><i class="fa fa-ellipsis-v card-icon"></i></a>             
@@ -498,8 +493,8 @@
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, deserunt.</p>
                         </div>
                         <div class="card-footer">
-                        <a href="" class="text-btn">Read</a>
-                        <a href="" class="text-btn">Bookmark</a>
+                        <button class="btn btn-link"><a href='#'>Checkout</a></button>
+                        <button class="btn btn-link"><a href='#'>Buy Now</a></button>
                         <a href=""><i class="fa fa-heart card-icon"></i></a>
                         <a href=""><i class="fa fa-share-alt card-icon"></i></a>
                         <a href=""><i class="fa fa-ellipsis-v card-icon"></i></a>           
@@ -524,8 +519,8 @@
                                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, deserunt.</p>
                             </div>
                             <div class="card-footer">
-                            <a href="" class="text-btn">Read</a>
-                            <a href="" class="text-btn">Bookmark</a>
+                            <button class="btn btn-link"><a href='#'>Checkout</a></button>
+                            <button class="btn btn-link"><a href='#'>Buy Now</a></button>
                             <a href=""><i class="fa fa-heart card-icon"></i></a>
                             <a href=""><i class="fa fa-share-alt card-icon"></i></a>
                             <a href=""><i class="fa fa-ellipsis-v card-icon"></i></a>           
@@ -534,13 +529,6 @@
 
                     </code>
                 </pre>
-
-
-              
-
-
-
-
                     
             </div>
             <!--- Right container -->
@@ -551,10 +539,13 @@
        
     </div>
     <footer class="footer">
-      <span>  
-          
-      </span> 
-       <span> Connect  - <a href="https://www.linkedin.com/in/rahulcs754/" target="_blank"><i class="fab fa-linkedin connect-link"></i></a> | <a href="https://github.com/rahulcs754" target="_blank"><i class="fab fa-github connect-link"></i></a>  |  <a href="https://twitter.com/Rahulcs754" target="_blank" ><i class="fab fa-twitter connect-link"></i></a>  Rahul Shukla</span>
+      <span> </span> 
+      <span> Connect - 
+        <a href="https://www.linkedin.com/in/rahulcs754/" target="_blank"><i class="fab fa-linkedin connect-link"></i></a> |
+        <a href="https://github.com/rahulcs754" target="_blank"><i class="fab fa-github connect-link"></i></a> |
+        <a href="https://twitter.com/Rahulcs754" target="_blank"><i class="fab fa-twitter connect-link"></i></a>
+        Rahul Shukla
+       </span>
     </footer>
 
 

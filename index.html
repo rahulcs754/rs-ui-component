@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>RS UI - Homepage</title>
     <link rel="icon" href="docs/intro/img/logoicons.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://rs-ui.netlify.app/css/style.css">
     <link rel="stylesheet" href="docs/intro/doc.css">
     
   <!-- Third party css -->
@@ -17,44 +18,55 @@
 </head>
 <body>
 
-    <div class="container">
-        	
-        <!-- Header Part --> 
-        <header class="doc-header doc-header-80 p-s">
 
-            <div class="doc-header-left" >
-                <h2 class="size-m"> RS UI COMPONENT </h2>
-            </div> 
+        
+        <header class="header">
+            <h1 class="header-logo"><a href="#">RS UI </a></h1>
 
-            <div class="doc-header-right">
-                <ul class="doc-header-list"> 
-                    <li class="list-item"><a href="docs/introduction.html">Docs</a></li>
-                </ul> 
-            </div>
-
+            <ul class="header-nav">
+                <li><a href="https://rs-ui.netlify.app/"> Home </a></li>
+                <li><a href="https://rs-ui.netlify.app/textutility.html"> Component List </a></li>
+            </ul>
+        
         </header>
 
+        <div class="container">
+        	
         <!-- Main Part -->
         <div class="main ">
-            <div class="main-title f-xl">
+            <div class="main-title f-xl mt-l pt-l">
                 Developed Beautiful Websites Quickly with A Modern Responsive front-end.
             </div>    
             <div class="desc pt-l">
                 RS(rise and shine) is a CSS library, integrated with pre-defined styled classes, and Utilites, for a quick creation of websites, with much focus on Functionality. Just copy below link and put into css file. 
             </div>
             <div class="desc-code pt-l mt-l">
-                    <code id="code-html" class="code xml" data-clipboard-target="#code-html">
+                    <code id="code-html" class="code-simple xml" data-clipboard-target="#code-html">
                     @import url("rs-ui.netlify.app/css/style.css")
                     </code>    
             </div>
+            <div class="d-block pt-l Text-center text-primary">
+                OR  
+            </div>
+
+            <div class="d-block Text-center pt-l">
+                Copy the Link given below and paste it in the <head> tag of your html, above all other style sheets.
+            </div>
+            
+            <div class="desc-code pt-l mt-l">
+             
+                <code id="code-html" class="code-simple xml" data-clipboard-target="#code-html">
+                    &LTlink rel="stylesheet" href="https://rs-ui.netlify.app/css/style.css"&GT
+                </code>
+               
+            </div>  
+
             <div class="button-part pt-l"> 
-                <a href="docs/introduction.html" class="btn btn-primary m-s">
-                    Get Started
-                </a>
-                <a href="https://github.com/rahulcs754/rs-ui-component" target="_blank" class="btn btn-primary m-s">GitHub</a>
+                <button class="btn btn-border m-s font-m btn-1 text-mute"  > <a href="https://rs-ui.netlify.app/textutility.html">Get Started</a></btton>
+               <button class="btn btn-border m-s font-m btn-1 text-mute"  > <a href="https://github.com/rahulcs754/rs-ui-component">GitHub</a></btton>
             </div>
         </div>
-
+ 
   
        
     </div>

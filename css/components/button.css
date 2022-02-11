@@ -1,12 +1,12 @@
 /* button css  */
 .btn{
     margin: 0.2rem;
-    padding: 0.3rem 0.6rem;
+    padding: 0.5rem 0.6rem;
     border-radius: 1px;
     cursor: pointer;
-    font-weight: 300;
+    font-weight: 600;
 }
-
+  
 .btn:hover{
     box-shadow: 1px 1px var(--light-black);
 }
@@ -17,7 +17,8 @@
 }
 
 .btn-primary:hover{
-    background-color: var(--light-more-blue);   
+    background-color: var(--light-blue);   
+    color: var(--dark-black);
 }
 
 .btn-success{
@@ -27,6 +28,7 @@
 
 .btn-success:hover{
     background-color: var(--primary-color);
+    color: var(--dark-black);
 }
 
 .btn-warning{
@@ -36,6 +38,7 @@
 
 .btn-warning:hover{
     background-color:var(--warning-color);
+    color: var(--dark-black);
 }
 
 .btn-info{    
@@ -45,7 +48,8 @@
 
 .btn-info:hover{
     background-color: var(--info-color);
-}
+    color: var(--dark-black);
+} 
 
 .btn-error{    
     background-color: var(--alert-color);
