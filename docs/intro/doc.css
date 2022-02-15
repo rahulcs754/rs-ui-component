@@ -207,34 +207,34 @@ scroll css
 }
 
 /* Tablet  */
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 40em) {
   html {
     font-size:50%;
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 48em) {
     html {
       font-size: 55%;
     }
   }
   
   /* Laptop  */
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 64em) {
     html {
       font-size: 100%;
     }
   }
   
   /* desktop  */
-  @media only screen and (min-width: 1280px) {
+  @media only screen and (min-width: 80em) {
     html {
       font-size: 100%;
     }
   }
 
-  @media only screen and (min-width: 1536px) {
+  @media only screen and (min-width: 96em) {
     html {
-      font-size: 120%;
+      font-size: 106%;
     }
   }
