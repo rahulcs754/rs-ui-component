@@ -60,7 +60,7 @@
 }
 
 @media (min-width: 768px) {
-  .rs-container {
+  .container {
     width: 46.875rem;
   }
 
@@ -115,7 +115,7 @@
 }
 
 @media (min-width: 992px) {
-  .rs-container {
+  .container {
     width: 60.625rem;
   }
   .col-md-12 {
@@ -168,7 +168,7 @@
 }
 
 @media (min-width: 1200px) {
-  .rs-container {
+  .container {
     width: 73.125rem;
   }
 
