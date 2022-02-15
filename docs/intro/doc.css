@@ -1,13 +1,8 @@
 /*  Author : Rahul Shukla  */
-@import url('https://fonts.googleapis.com/css2?family=Andika&display=swap');
 
 button{
     cursor: pointer;
 } 
-
-.bt{
-  border-bottom: 1px solid var(--light-black);
-}
 
 /* body data */
 .container {
@@ -188,53 +183,3 @@ scroll css
 	border: 1px solid var(--light-black);
 }
 
-
-/* body data */
-
-
-
-/* 
----------------------------------------------
-13. media query
---------------------------------------------- 
-*/
-
-/* Mobile  */
-@media only screen and (min-width: 480px) {
-  html {
-    font-size: 40%;
-  }
-}
-
-/* Tablet  */
-@media only screen and (min-width: 40em) {
-  html {
-    font-size:50%;
-  }
-}
-
-@media only screen and (min-width: 48em) {
-    html {
-      font-size: 55%;
-    }
-  }
-  
-  /* Laptop  */
-  @media only screen and (min-width: 64em) {
-    html {
-      font-size: 100%;
-    }
-  }
-  
-  /* desktop  */
-  @media only screen and (min-width: 80em) {
-    html {
-      font-size: 100%;
-    }
-  }
-
-  @media only screen and (min-width: 96em) {
-    html {
-      font-size: 106%;
-    }
-  }
