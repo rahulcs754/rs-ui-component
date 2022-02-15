@@ -488,3 +488,21 @@
 .margin-left{
   margin-left:auto;
 }
+
+/* gap css */
+
+.gap-sm{
+  gap:0.5rem;
+}
+
+.gap-md{
+  gap:1rem;
+}
+
+.gap-lg{
+  gap:1.5rem;
+}
+
+.gap-xlg{
+  gap:2rem;
+}
