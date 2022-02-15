@@ -1,12 +1,11 @@
 /* font family link */
-@import url('https://fonts.googleapis.com/css2?family=Andika&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+  
 /* reset  css */
 @import url("./base/reset.css");
 
 /* color  css */
-@import url("./abstracts/varable.css");
+@import url("./abstracts/variable.css");
 
 /* varable  list */
 @import url("./abstracts/colors.css");
@@ -30,41 +29,41 @@
 
 /* Mobile  */
 @media only screen and (min-width: 480px) {
+  html {
+    font-size: 40%;
+  }
+}
+
+/* Tablet  */
+@media only screen and (min-width: 640px) {
+  html {
+    font-size:50%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
     html {
-      font-size: 40%;
+      font-size: 55%;
+    }
+  }
+
+  
+  /* Laptop  */
+  @media only screen and (min-width: 1024px) {
+    html {
+      font-size: 100%;
     }
   }
   
-  /* Tablet  */
-  @media only screen and (min-width: 640px) {
+  /* desktop  */
+  @media only screen and (min-width: 1280px) {
     html {
-      font-size:50%;
+      font-size: 100%;
     }
   }
-  
-  @media only screen and (min-width: 768px) {
-      html {
-        font-size: 55%;
-      }
+
+  @media only screen and (min-width: 1536px) {
+    html {
+      font-size: 107%;
     }
-  
-    
-    /* Laptop  */
-    @media only screen and (min-width: 1024px) {
-      html {
-        font-size: 100%;
-      }
-    }
-    
-    /* desktop  */
-    @media only screen and (min-width: 1280px) {
-      html {
-        font-size: 100%;
-      }
-    }
-  
-    @media only screen and (min-width: 1536px) {
-      html {
-        font-size: 120%;
-      }
-    }
+  }
