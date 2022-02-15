@@ -269,6 +269,22 @@
   border-bottom: 1px solid var(--light-black);
 }
 
+.border-bottom {
+  border-bottom: 1px solid var(--light-black);
+}
+
+.border-left {
+  border-left: 1px solid var(--light-black);
+}
+
+.border-right {
+  border-right: 1px solid var(--light-black);
+}
+
+.border-top { 
+  border-top: 1px solid var(--light-black);
+}
+
 .gray-text {
   color: var(--light-more-black);
 }
@@ -304,7 +320,7 @@
   white-space: normal;
 }
 
-.text-break {
+.text-break { 
   word-wrap: break-word;
   word-break: break-word;
 }
