@@ -8,7 +8,7 @@
 .rs-row {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-gap: 5px;
+  grid-gap: 5px; 
 }
 
 .col-12 {
@@ -60,7 +60,7 @@
 }
 
 @media (min-width: 768px) {
-  .container {
+  .rs-container {
     width: 46.875rem;
   }
 
@@ -115,7 +115,7 @@
 }
 
 @media (min-width: 992px) {
-  .container {
+  .rs-container {
     width: 60.625rem;
   }
   .col-md-12 {
@@ -168,7 +168,7 @@
 }
 
 @media (min-width: 1200px) {
-  .container {
+  .rs-container {
     width: 73.125rem;
   }
 
